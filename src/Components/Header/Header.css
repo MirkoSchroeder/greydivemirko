@@ -1,0 +1,10 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(219, 54, 123);
+}
+
+.text {
+    font-weight: bold;
+    color: #fff;
+}
