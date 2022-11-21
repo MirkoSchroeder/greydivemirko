@@ -31,19 +31,21 @@ const Info = ({info}) => {
     }
 
     const onSuccessPregunta = () => {
-        goNext()
+        goNext() 
     }
 
     return (
         <section className="Info">
-            <h1>Nombre del cliente: {info.cliente || ''}</h1>
-            <h1>Test de como utilizar el sitio web</h1>
+            <h1>Nombre del cliente: <p className="InfoCliente">{info.cliente || ''}</p></h1>
+            <h1>Cómo utilizar el sitio web?</h1>
 
-            <div className="divGeneral">
+            <div className="InfoVideo">
                 <video className="widthVideo" src={info.linkVideo || ''} controls={true}></video>
             </div>
 
-            <h2>Escenario: {info.escenario || ''}</h2>
+            <div className="InfoEscenario">
+                <h2>Escenario: {info.escenario || ''}</h2>
+            </div>
 
             <section className="InfoPreguntasSection">
                 <button className="InfoButton" onClick={goPrev} style={{visibility: isPrevButtonVisible ? 'visible' : 'hidden'}}>
@@ -57,8 +59,8 @@ const Info = ({info}) => {
                 </button>
             </section>
 
-            <div className="InfoDivTranscription">
-                <h1>Transcripcion</h1>
+            <div className="InfoTranscription">
+                <h1>Transcripción</h1>
                 <p className="transcripcion" dangerouslySetInnerHTML={{__html: info.transcripcion}} />
             </div>
         </section>

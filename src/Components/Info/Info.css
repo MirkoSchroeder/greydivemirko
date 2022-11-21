@@ -1,8 +1,8 @@
 .widthVideo {
-    width: 100%;
+    width: 70%;
 }
 
-.divGeneral {
+.InfoVideo {
     display: flex;
     justify-content: center;
     height: 100%;
@@ -12,19 +12,24 @@
     height: 300px;
     width: 60%;
 	border: 1px solid #ddd;
+    border-radius: 50px;
 	overflow-y: scroll;
     margin: 30px auto;
-    padding:40px;
+    padding:30px;
+    text-align: justify;
 }
 
 .InfoPreguntasSection {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding-bottom: 6em;
 }
 
 .InfoButton {
-    color: #000;
+    color: #fff;
     padding: 10px;
     background: cornflowerblue;
     border-radius: 8px;
@@ -33,6 +38,16 @@
     cursor: pointer;
 }
 
-.InfoDivTranscription {
+.InfoTranscription {
     padding: 60px 0;
+    border-radius: 2px;
+}
+
+.InfoEscenario {
+    padding: 50px 0;
+}
+
+.InfoCliente {
+    color: rgb(219, 54, 123);
+    text-transform: uppercase;
 }
