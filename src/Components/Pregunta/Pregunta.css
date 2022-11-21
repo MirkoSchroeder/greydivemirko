@@ -1,0 +1,19 @@
+.PreguntaTiempo {
+    color: red;
+    margin-left: 2px;
+}
+
+.PreguntaBotones {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.PreguntaBotton {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: cadetblue;
+    color: white;
+    font-weight: 600;
+    border: 0;
+    border-radius: 8px;
+}

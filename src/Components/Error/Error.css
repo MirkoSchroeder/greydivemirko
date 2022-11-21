@@ -1,0 +1,14 @@
+.Error404Img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Error404 {
+    position: relative;
+}
+
+.ErrorText {
+    color: #000;
+    position: absolute;
+    left: 40%;
+}
